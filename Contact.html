@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet"  href = "contact.css">
+    <title>Travel recommend</title>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#" class="logo">
+            <img src="logo.png" alt="logo">
+            TravelBloom
+        </a>
+        <a href="travel_recommendation.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Contact.html">Contact</a>
+
+        <div class="Search">
+            <input type="text" placeholder="Search your Destination...." id="search">
+            <button type="button" onclick="search()">Search</button>
+            <button type="button" onclick="reset()">Reset</button>
+        </div>
+    </div>
+
+
+    <div class = "contact-section">
+        <h1>CONTACT US</h1>
+
+    <div class="contact-form-container">
+        <form class="contact-form" action="submit_form.php" method="POST">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="message" placeholder="Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "i.css">
+    <title>travel recommend website</title>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#" class="logo">
+            <img src="logo.png" alt="logo">
+            TravelBloom
+        </a>
+        <a href="i.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Contact.html">Contact</a>
+
+        <div class="Search">
+            <input type="text" placeholder="Search your Destination...." id="search">
+            <button type="button" onclick="search()">Search</button>
+            <button type="button" onclick="reset()">Reset</button>
+        </div>
+    </div>
+
+    <section class = "homepage">
+        <div class = "overlay">
+            <div>
+                <h1>Explore<br>Dream<br>Destination</h1>
+                <p>It encourages exploration of unfamiliar territories, embracing diverse cultures and landscapes, while pursuing the desired destination that captivates the heart and ignites a sense of wonder.</p>
+                <!-- <a href = "#" class = "cla-button" id ="cla">Book Now</a> -->
+            </div>
+        </div>
+    </section>
+
+    <section class="recommendation-section">
+        <h1>Travel Recommendations</h1>
+        <div id="recommendation-results"></div>
+    </section>
+
+    <script src = "i.js"></script>    
+</body>
+</html>

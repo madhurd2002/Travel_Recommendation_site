@@ -1,0 +1,183 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+
+.navbar{
+    background-color: rgb(69, 69, 129);
+    overflow: hidden;
+    padding: 0 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar .logo{
+    float: left;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color:aquamarine;
+    cursor: pointer;
+}
+
+.navbar .logo img{
+    width: 50px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.navbar a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    background-color: aquamarine;
+    color: red;
+}
+
+
+.Search {
+    float: right;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.Search input[type="text"] {
+    padding: 8px;
+    margin-left: 10px;
+    background-color: white;
+    color: yellow;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+}
+
+.Search button {
+    margin-left: 5px;
+    padding: 8px 12px;
+    background-color:aquamarine;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.Search button:hover {
+    background-color: #777;
+}
+
+.homepage {
+    background-image: url(build.jpg) ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+
+}
+
+.overlay {
+    background: rgba(0,0,0,0,0.5);
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.overlay h1 {
+    font-size: 18px;
+    margin: 0;
+    line-height: 1.2;
+}
+
+
+.overlay p {
+    font-size: 18px;
+    margin: 20px 0;
+    max-width: 600px;
+}
+
+.overlay .cla-button {
+    padding: 10px 20px;
+    background-color: #008080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.overlay .cla-button:hover {
+    background-color: #006666;
+}
+
+.recommendation-section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#recommendation-results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.recommendation {
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.recommendation img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.recommendation h2 {
+    margin: 10px;
+    font-size: 1.5em;
+}
+
+.recommendation p {
+    margin: 10px;
+}
+
+.recommendation button {
+    margin: 10px;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.recommendation button:hover {
+    background-color: #45a049;
+}

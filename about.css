@@ -1,0 +1,175 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+
+.navbar{
+    background-color: rgb(69, 69, 129);
+    overflow: hidden;
+    padding: 0 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar .logo{
+    float: left;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color:aquamarine;
+    cursor: pointer;
+}
+
+.navbar .logo img{
+    width: 50px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.navbar a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    background-color: aquamarine;
+    color: red;
+}
+
+
+.Search {
+    float: right;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.Search input[type="text"] {
+    padding: 8px;
+    margin-left: 10px;
+    background-color: white;
+    color: yellow;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+}
+
+.Search button {
+    margin-left: 5px;
+    padding: 8px 12px;
+    background-color:aquamarine;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.Search button:hover {
+    background-color: #777;
+}
+
+
+.about-section {
+    background-image: url(taj.jpg) ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+ 
+}
+
+
+.about-section h1 {
+    font-size: 60px;
+    margin: 0;
+    text-align: center;
+}
+
+.company-info p {
+    font-size: 18px;
+    margin: 50px 20px;
+}
+
+.company-info h2 {
+    text-align: center;
+}
+
+
+.company-info p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 20px auto;
+    color: #333;
+}
+
+.company-info strong {
+    color: #008080;
+}
+
+/* Our Team section */
+.team {
+    /* background-color: #f4f4f4; */
+    padding: 90px ;
+}
+
+.team h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.team-member {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    max-width: 200px;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.team-member h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.team-member p {
+    font-size: 16px;
+    color: #555;
+}
+
+.team-member .role {
+    background-color: #008080;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 10px;
+}
